@@ -1,4 +1,4 @@
-# SmS-Hub-VB
+# SmS-Hub-VB (Visual Basic)
 A SmS Hub over a Smartphone- here the GUI of a VB-Application to send a SMS
 
 # I only want to use the Application: (go here)
