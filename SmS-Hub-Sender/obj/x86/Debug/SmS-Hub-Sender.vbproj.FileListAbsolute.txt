@@ -1,0 +1,9 @@
+C:\Users\DmDTurbo\Desktop\SmS-Hub-Sender\SmS-Hub-Sender\bin\Debug\SmS-Hub-Sender.exe
+C:\Users\DmDTurbo\Desktop\SmS-Hub-Sender\SmS-Hub-Sender\bin\Debug\SmS-Hub-Sender.pdb
+C:\Users\DmDTurbo\Desktop\SmS-Hub-Sender\SmS-Hub-Sender\bin\Debug\SmS-Hub-Sender.xml
+C:\Users\DmDTurbo\Desktop\SmS-Hub-Sender\SmS-Hub-Sender\obj\x86\Debug\SmS_Hub_Sender.Form1.resources
+C:\Users\DmDTurbo\Desktop\SmS-Hub-Sender\SmS-Hub-Sender\obj\x86\Debug\SmS_Hub_Sender.Resources.resources
+C:\Users\DmDTurbo\Desktop\SmS-Hub-Sender\SmS-Hub-Sender\obj\x86\Debug\SmS-Hub-Sender.vbproj.GenerateResource.Cache
+C:\Users\DmDTurbo\Desktop\SmS-Hub-Sender\SmS-Hub-Sender\obj\x86\Debug\SmS-Hub-Sender.exe
+C:\Users\DmDTurbo\Desktop\SmS-Hub-Sender\SmS-Hub-Sender\obj\x86\Debug\SmS-Hub-Sender.xml
+C:\Users\DmDTurbo\Desktop\SmS-Hub-Sender\SmS-Hub-Sender\obj\x86\Debug\SmS-Hub-Sender.pdb
