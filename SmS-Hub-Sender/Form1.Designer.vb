@@ -50,10 +50,13 @@ Partial Class Form1
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.StatusStrip1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'StatusStrip1
@@ -202,6 +205,8 @@ Partial Class Form1
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.Label6)
+        Me.TabPage2.Controls.Add(Me.NumericUpDown1)
         Me.TabPage2.Controls.Add(Me.Button3)
         Me.TabPage2.Controls.Add(Me.TextBox9)
         Me.TabPage2.Controls.Add(Me.Label11)
@@ -224,7 +229,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(329, 176)
+        Me.Button3.Location = New System.Drawing.Point(339, 176)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(36, 30)
         Me.Button3.TabIndex = 36
@@ -233,7 +238,7 @@ Partial Class Form1
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(83, 182)
+        Me.TextBox9.Location = New System.Drawing.Point(93, 182)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(240, 20)
         Me.TextBox9.TabIndex = 35
@@ -329,6 +334,24 @@ Partial Class Form1
         Me.Label10.TabIndex = 23
         Me.Label10.Text = "Options"
         '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Location = New System.Drawing.Point(93, 202)
+        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(120, 20)
+        Me.NumericUpDown1.TabIndex = 37
+        Me.NumericUpDown1.Value = New Decimal(New Integer() {250, 0, 0, 0})
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(13, 209)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(74, 13)
+        Me.Label6.TabIndex = 38
+        Me.Label6.Text = "sending break"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -346,6 +369,7 @@ Partial Class Form1
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -378,5 +402,7 @@ Partial Class Form1
     Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown1 As System.Windows.Forms.NumericUpDown
 
 End Class

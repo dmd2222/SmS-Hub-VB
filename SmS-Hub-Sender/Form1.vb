@@ -66,7 +66,9 @@ Public Class Form1
         Dim csvarray = csvtext.Split(",")
 
         For Each item In csvarray
-            send_sms(item, TextBox6.Text)
+            ListBox2.Items.Add(send_sms(item, TextBox6.Text))
+            ' Pause: 500 Millisekunden
+            Threading.Thread.Sleep(500)
         Next
 
     End Sub
@@ -80,6 +82,7 @@ Public Class Form1
         ini.WertSchreiben("sekA", "message", TextBox3.Text)
         ini.WertSchreiben("sekA", "number", TextBox4.Text)
         ini.WertSchreiben("sekA", "csvpath", TextBox9.Text)
+        ini.WertSchreiben("sekA", "sendingbreak", NumericUpDown1.Value)
     End Sub
 
     Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
@@ -87,7 +90,7 @@ Public Class Form1
         Dim ini As New INIDatei
         ini.setPath("options.ini")
 
-
+        NumericUpDown1.Value = ini.WertLesen("sekA", "sendingbreak")
         TextBox1.Text = ini.WertLesen("sekA", "url")
         TextBox2.Text = ini.WertLesen("sekA", "deviceId")
         TextBox3.Text = ini.WertLesen("sekA", "message")
