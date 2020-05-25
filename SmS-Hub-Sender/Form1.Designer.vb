@@ -38,6 +38,8 @@ Partial Class Form1
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -50,8 +52,6 @@ Partial Class Form1
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.StatusStrip1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -192,7 +192,6 @@ Partial Class Form1
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(240, 20)
         Me.TextBox1.TabIndex = 13
-        Me.TextBox1.Text = "https://idenlink.de/php-sms-service/service.php"
         '
         'Label1
         '
@@ -226,6 +225,24 @@ Partial Class Form1
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Send multible SMS CSV"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(13, 209)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(74, 13)
+        Me.Label6.TabIndex = 38
+        Me.Label6.Text = "sending break"
+        '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Location = New System.Drawing.Point(93, 202)
+        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(120, 20)
+        Me.NumericUpDown1.TabIndex = 37
+        Me.NumericUpDown1.Value = New Decimal(New Integer() {250, 0, 0, 0})
         '
         'Button3
         '
@@ -323,7 +340,6 @@ Partial Class Form1
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(240, 20)
         Me.TextBox8.TabIndex = 24
-        Me.TextBox8.Text = "https://idenlink.de/php-sms-service/service.php"
         '
         'Label10
         '
@@ -333,24 +349,6 @@ Partial Class Form1
         Me.Label10.Size = New System.Drawing.Size(43, 13)
         Me.Label10.TabIndex = 23
         Me.Label10.Text = "Options"
-        '
-        'NumericUpDown1
-        '
-        Me.NumericUpDown1.Location = New System.Drawing.Point(93, 202)
-        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(120, 20)
-        Me.NumericUpDown1.TabIndex = 37
-        Me.NumericUpDown1.Value = New Decimal(New Integer() {250, 0, 0, 0})
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(13, 209)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(74, 13)
-        Me.Label6.TabIndex = 38
-        Me.Label6.Text = "sending break"
         '
         'Form1
         '
